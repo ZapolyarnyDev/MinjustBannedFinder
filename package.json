@@ -4,6 +4,9 @@
   "description": "Обёртка на Js & Ts для упрощения получения информации о запрещённых материалах с сайта министерства юстиции",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
